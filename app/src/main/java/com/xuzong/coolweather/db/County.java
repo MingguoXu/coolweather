@@ -1,10 +1,12 @@
 package com.xuzong.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by xuzong on 2019/1/6.
  */
 
-public class County {
+public class County extends DataSupport{
     private int id;
     private String countyName;
     private String weatherId;
